@@ -1,0 +1,87 @@
+footer{
+    margin-top: 5rem;
+    border-top: #41495F 1px solid;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.contacts_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.schedule{
+    width: 35rem;
+    text-align: right;
+}
+.contacts_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+
+/* Иконка соц.сеть */
+.social-icon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 10px;
+}
+.social-icon a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #efefef;
+    position: relative;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 0 2px 6px #c1c1c1;
+    font-size: 25px;
+    color: #337AB7;
+    transition: 0.5s;
+}
+.social-icon a img {
+    width: 22px;
+    height: 22px;
+    margin-top: 14px;
+}
+.social-icon a i,
+.social-icon a img {
+    z-index:2;
+    position: relative;
+    line-height: 40px;
+    background:none;
+}
+.social-icon a:hover {
+    color: #fff;
+}
+.social-icon a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #BFE2FF;
+    border-radius: 100%;
+    width: 0;
+    height: 0;
+    transition: 0.3s;
+    top: 0;
+    left: 75%;
+}
+.social-icon a:hover:after {
+    width: 40px;
+    height: 40px;
+    margin-left: -30px;
+    background: #337AB7;
+}

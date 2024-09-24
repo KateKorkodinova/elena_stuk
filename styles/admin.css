@@ -1,0 +1,56 @@
+h1{
+    margin-top: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 0;
+}
+table,
+th,
+td {
+    border: 0.1rem #41495F solid;
+    height: 6rem;
+}
+table{
+
+    margin-top: 3rem;
+}
+th {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+td {
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+.back{
+    margin-top: 3rem;
+}
+.content-show{
+    display: flex;
+    margin-bottom: 3rem;
+}
+.btn-edit{
+    font-size: 2rem;
+    width: max-content;
+    color: #F0EDE6;
+    background-color: #41495F;
+    padding: 1.55rem 3.264rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    height: 3.4rem;
+}
+.id,.table-img,.btns{
+    text-align: center;
+}
+.post{
+    display: flex;
+}
+.post-photo{
+    margin-right: 2rem;
+}
